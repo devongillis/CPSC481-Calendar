@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>CPSC 481 Group 3 Project</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+<body>
+	<div>
+		<h1 id="displayName"><br></h1>
+	</div>
+
+	<div style="display: flex; justify-content: center;">
+		<img class="imageTop" src="images/image01.png" alt="image01" style="width:128px; height:128px;">
+		<img class="imageTop" src="images/image02.png" alt="image02" style="width:128px; height:128px;">
+	</div>
+
+	<h1>CPSC 481 TEAM</h1>
+
+	<div class="dropdown">
+	  <button onclick="dropFunction()" class="dropbtn">Menu</button>
+	</div>
+
+	<div class = "headerclass" id = "Profile Section">
+		<A NAME="profileSection">
+		<h1>About The Team</h1>
+		<section class="profileRow" >
+		
+			<div class="TeamPositions">
+				<article class="TeamArticle">
+					<h2>Team Positions</h2>
+					<script src="javascript/team_positions.js"></script>
+				</article>
+			</div>
+			
+			<div class="TeamGoals">
+				<article class="TeamArticle">
+					<h2>Teams Goals</h2>
+					<script src="javascript/team_goals.js"></script>
+				</article>
+			</div>
+			
+			<div class="TeamMembers">
+				<article class="TeamArticle">
+					<h2>Teams Members</h2>
+				</article>
+			</div>
+		
+			<div class="profileColumn">
+				<img class="profilePic" src="images/dennis_nguyen.png" alt="pic" style="width:64px; height:64px;">
+				<article class="profileArticle">
+					<h2>Dennis Nguyen</h2>
+					<script src="javascript/aboutus/dennis_nguyen.js"></script>
+					<h4>Email: <script>dennis_email();</script></h4>
+					<h4>Phone: <script>dennis_phone();</script></h4>
+				</article>
+			</div>
+			
+			<div class="profileColumn">
+				<img class="profilePic" src="images/devon_gillis.png" alt="pic" style="width:64px; height:64px;">
+				<article class="profileArticle">
+					<h2>Devon Gillis</h2>
+					<script src="javascript/aboutus/devon_gillis.js"></script>
+					<h4>Email: <script>devon_email();</script></h4>
+					<h4>Phone: <script>devon_phone();</script></h4>
+				</article>
+			</div>
+
+			<div class="profileColumn">
+				<img class="profilePic" src="images/gurneck_johal.png" alt="pic" style="width:64px; height:64px;">
+				<article class="profileArticle">
+					<h2>Gurneck Johal</h2>
+					<script src="javascript/aboutus/gurneck_johal.js"></script>
+					<h4>Email: <script>gurneck_email();</script></h4>
+					<h4>Phone: <script>gurneck_phone();</script></h4>
+				</article>
+			</div>
+
+			<div class="profileColumn">
+				<img class="profilePic" src="images/mikhail_starikov.png" alt="pic" style="width:64px; height:64px;">
+				<article class="profileArticle">
+					<h2>Mikhail Starikov</h2>
+					<script src="javascript/aboutus/mikhail_starikov.js"></script>
+					<h4>Email: <script>mikhail_email();</script></h4>
+					<h4>Phone: <script>mikhail_phone();</script></h4>
+				</article>
+			</div>
+		</section>
+
+	</div>
+
+</body>
+</html>

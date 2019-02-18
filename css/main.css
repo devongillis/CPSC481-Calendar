@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: powderblue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+*:not(html):not(body):not(div):not(section):not(article):not(form):not(a):not(img):hover {
+  background-color: #4ddbff;
+  color:black;
+  box-shadow: 0px 5px;
+}
+
+#displayName{
+  font-size: 100%;
+}
+
+.imageTop {
+  width: 50%;
+  height: auto;
+}
+
+section.profileRow {
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+img.profilePic {
+  float: left;
+  width: 100%;
+  background-color: white;
+  color:black;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+article.profileArticle {
+  width: 40%;
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section.profileColumn::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section.profileRow::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
